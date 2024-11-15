@@ -1,11 +1,15 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
+import { Hello } from './components/hello';
 import styles from './page.module.css';
 
 export default function Home() {
+  console.log('What is this?');
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <Hello />
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -19,6 +23,10 @@ export default function Home() {
             Get started by editing <code>src/app/page.tsx</code>.
           </li>
           <li>Save and see your changes instantly.</li>
+          <li>Save and see your changes instantly.</li>
+          <li>
+            <Link href="/blog/1">Blog 1</Link>
+          </li>
         </ol>
 
         <div className={styles.ctas}>

@@ -48,7 +48,11 @@ Check out our
 [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying)
 for more details.
 
+## MDX
+
+- https://nextjs.org/docs/pages/building-your-application/configuring/mdx
 
 ## Doc
 
 - https://www.reactsquad.io/blog/how-to-set-up-next-js-15-for-production
+- https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2
