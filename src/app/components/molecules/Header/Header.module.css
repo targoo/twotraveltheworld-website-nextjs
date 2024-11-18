@@ -1,0 +1,15 @@
+.header {
+}
+
+.mainNavigation {
+  padding: 16px var(--right-left-global-padding);
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  border-top: 3px solid var(--color-contrast);
+  box-shadow: 2.6px 5.1px 5.1px hsl(0deg 0% 0% / 0.42);
+
+  @media  (min-width: 768px) {
+    border-top: none;
+  }
+}

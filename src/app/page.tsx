@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { Hello } from './components/hello';
+import { VisuallyHidden } from './components/atoms/VisuallyHidden/VisuallyHidden';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Hello />
+        <VisuallyHidden>What is this?</VisuallyHidden>
         <Image
           className={styles.logo}
           src="/next.svg"

@@ -1,7 +1,10 @@
+import '@pigment-css/react/styles.css';
 import './globals.css';
 
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+
+import { Footer } from './components/molecules/footer';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -28,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+        <Footer />
       </body>
     </html>
   );

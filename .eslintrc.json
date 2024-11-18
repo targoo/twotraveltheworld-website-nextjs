@@ -9,11 +9,13 @@
   ],
   "plugins": ["simple-import-sort"],
   "rules": {
+    "import/no-unresolved": "off", // @todo remove this line when the issue is fixed
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
     "unicorn/no-array-callback-reference": "off",
     "unicorn/no-array-for-each": "off",
     "unicorn/no-array-reduce": "off",
+    "unicorn/filename-case": "off",
     "unicorn/prevent-abbreviations": [
       "error",
       {

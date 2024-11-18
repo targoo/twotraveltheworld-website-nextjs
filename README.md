@@ -56,3 +56,8 @@ for more details.
 
 - https://www.reactsquad.io/blog/how-to-set-up-next-js-15-for-production
 - https://www.joshwcomeau.com/blog/how-i-built-my-blog-v2
+- https://www.youtube.com/watch?v=Zq5fmkH0T78&ab_channel=JavaScriptMastery
+
+### Design
+
+- https://github.com/mui/pigment-css?tab=readme-ov-file
