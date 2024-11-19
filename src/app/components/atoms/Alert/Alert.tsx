@@ -6,7 +6,7 @@ import { styled } from '@pigment-css/react';
 
 export function Alert({ children, type = 'alarm' }: AlertProps) {
   return (
-    <AlertWrapper type={type}>
+    <AlertWrapper>
       {/* <IconWrapper> */}
       {/* <Check /> */}
       {/* </IconWrapper> */}

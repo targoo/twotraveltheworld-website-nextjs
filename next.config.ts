@@ -1,4 +1,5 @@
 import createMDX from '@next/mdx';
+import createNextIntlPlugin from 'next-intl/plugin';
 import { withPigment } from '@pigment-css/nextjs-plugin';
 
 /** @type {import('next').NextConfig} */
@@ -8,9 +9,11 @@ const nextConfig = {
   // Optionally, add any other Next.js config below
 };
 
+const withNextIntl = createNextIntlPlugin();
+
 const withMDX = createMDX({
   // Add markdown plugins here, as desired
 });
 
 // Merge MDX config with Next.js config
-export default withPigment(withMDX(nextConfig));
+export default withNextIntl(withPigment(withMDX(nextConfig)));
